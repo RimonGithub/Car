@@ -1,0 +1,627 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* ***************************************
+********** header section start  ***********
+***************************************** */
+.navbar {
+    top: 0%;
+    z-index: 100;
+    position: sticky;
+    box-shadow: 0 0 10px rgb(215, 215, 199);
+    background-color: white;
+}
+.navbar .nav-item{
+    padding-right: 22px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    
+}
+.navbar .nav-item a:hover{
+    color: #027577;
+}
+.signUp a{
+    color: #9A9EA7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+}
+.signUp a img{
+    width: 32px;
+    height: 32px;
+    background: #F5F6F7;
+    padding: 5px 8px ;
+    border-radius: 10px;
+    margin: 0px 10px 0 0 ;
+}
+/* ***************************************
+********** header section end  ***********
+***************************************** */
+
+
+
+/* ***************************************
+********** section 1 start here ***********
+***************************************** */
+.section1{
+    max-width: 100%;
+    min-height: 570px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(image/Rectangle.png);
+}
+.section1 h1{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: -0.3047619163990021px;
+    padding-top: 150px;
+    text-align: center;
+}
+.section1 .HeadP{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    padding-top: 30px;    
+    text-align: center;
+}
+.section1 .SelectTag{
+    max-width: 945px;
+    min-height: 83px;
+    background: white;
+    position: absolute;
+    margin: 0% auto;
+    bottom: 20px;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 99;
+    width: 98%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.section1 .SelectTag p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 5px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #9A9EA7;
+    margin-left: 10px;
+}
+.section1 .SelectTag .select{
+    color: #0D0A19;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    border: none;
+    border-radius: 0px;
+    border-right: 1px solid rgb(222, 210, 210);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.section1 .SelectTag .selectItem{
+    margin-top: 20px;
+    border: none;
+    border-radius: 0px;
+    color: #9A9EA7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    border-right: 1px solid rgb(222, 210, 210);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.section1 .SelectTag button{
+    width: 100%;
+    color: white;
+    height: 40px;
+    line-height: 60px;
+    background: #7963F0;
+    border-radius: 10px;
+}
+.section1 .SelectTag .button{
+    margin-top: 15px;
+    border: none;
+    border-radius: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    border-right: 1px solid rgb(222, 210, 210);
+}
+.section1 .SelectTag .button img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* ***************************************
+********** section 1 start end ***********
+***************************************** */
+
+
+/* ***************************************
+********** (brand) section 2 start here ***
+***************************************** */
+.section2 img{
+    cursor: pointer;
+}
+/* ***************************************
+********** (brand) section 2 end here ***
+***************************************** */
+
+
+/* ***************************************
+*(tranding new car) section 3 start here ***
+***************************************** */
+.section3 {
+    margin-top: -20px;
+}
+.section3 h3{
+    color: #0D0A19;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.section3 p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height:7px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #9A9EA7;
+}
+.section3 .btn1{
+    background-color: #fdeaff;
+}
+.section3 .btn2{
+    background-color: #ebebeb;
+}
+.section3 .card{
+    border-color: blue;
+}
+/* ***************************************
+*(tranding new car) section 3 end here ***
+***************************************** */
+
+
+
+
+/* ***************************************
+*(slider Find car by design) section 4 start here
+***************************************** */
+.FindcarHeader {
+    width: 98%;
+    height: 60px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+.section4{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.findCar {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+.ArrowArea{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #9A9EA7;
+}
+header p span {
+    margin:0px 5px;
+    width: 30px;
+    height: 30px;
+} 
+.ArrowArea {
+    margin-top: 15px;
+}
+.ArrowArea img {
+    background: #F5F6F7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Sedan {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D0A19;
+}
+.ProBTN {
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+	border-radius: 8px !important;
+	color: #7963f0 !important;
+}
+.ProBTN1 {
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+    background: #F5F6F7;
+    border-radius: 8px;
+    color: #9A9EA7;
+}
+.product {
+	min-width: 24%;
+	margin: 0 20px 50px 0px;
+	position: relative;
+	left: 0;
+	transition: 0.5s;
+
+}
+/* ***************************************
+*(slider Find car by design) section 4 end here
+***************************************** */
+
+
+
+
+/* ***************************************
+*(Find car by model) section 5 start here ***
+***************************************** */
+.section4{
+    margin-top: 50px;
+}
+.findCar{
+    margin-left: -20px;
+}
+.section4 .Find1{
+    width: 140px;
+}
+.section4 .Find2{
+    width: 360px;
+}
+.section4 .Find2 button{
+    color: #9A9EA7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+}
+.section4 .Find2 .make{
+    color: #0D0A19;
+    border: 1px solid rgb(219, 219, 219);
+}
+.Find {
+    margin-top: 10px;
+}
+.Find .popular{
+    color: #9A9EA7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    padding-top: 40px;
+}
+ .arrowIconDiv{
+    padding-left: 150px;
+    padding-top: 15px;
+}
+.Find .arrowIcon{
+    width: 18px;
+    height: 15px;
+}
+.Find  h5{
+    color: #0D0A19;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: start;
+}
+.Find  p{
+    color: #9A9EA7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    margin-top: -6px;
+}
+.Find  .FindDetail{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.Find  .FindDetail .img1{
+    padding-top: 15px;
+}
+.Find  .FindDetail .img2{
+    padding-top: 5px;
+}
+.Find  .detailTex{
+    padding-left: 20px;
+}
+.Find .Other{
+    color: #9A9EA7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.Find .otherMake h5{
+    color: #0D0A19;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;   
+    padding-left: 50px;   
+
+}
+.Find .otherMake p{
+    color: #9A9EA7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+.Find .otherMake2{
+    margin-top: 72px;
+}
+.Find .otherMake2 h5{
+    color: #0D0A19;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left; 
+    padding-left: 50px;   
+}
+.Find .otherMake2 p{
+    color: #9A9EA7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+/* ***************************************
+*(Find car by model) section 5 end here ***
+***************************************** */
+
+
+
+/* ***************************************
+**** (top footer) section 6 start here ***
+***************************************** */
+.section5{
+    margin-top: 50px;
+    min-height: 300px;
+    max-width: 100%;
+    background: #e7ebee;
+}
+.section5 h4{
+    color: #0D0A19;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+}
+.section5 p{
+    color: #85878b;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+}
+.section5 a{
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.section5 a:hover{
+    text-decoration: underline;
+}
+/* ***************************************
+**** (top footer) section 6 end here ***
+***************************************** */
+
+
+
+/* ***************************************
+*****  footer section start here ******
+******************************************/
+footer{
+    min-height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgb(4, 0, 26);
+}
+.footerDiv{
+    display: flex;
+    justify-content: space-between;
+}
+footer .a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+footer .a:hover{
+    text-decoration: underline;
+}
+.footerDiv h4{
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    width: 120px;
+}
+.footerDiv p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #9A9EA7;
+}
+.footerDiv .USD{
+    padding-left: 10px;
+}
+/* ***************************************
+*****  footer section end here ******
+******************************************/
+
+
+/* ***************************************
+*****  responsive section start here ****** -------- ****************************
+******************************************/
+@media all and (max-width:768px){
+    /* section 1 start */
+    .section1 h1{
+        font-size: 44px;
+    }
+    .section1 .SelectTag{
+        position: relative;
+        top: 150px;
+    }
+    .section1 .SelectTag .select {
+        margin-bottom: 10px;
+        border: 1px solid rgb(214, 214, 214);
+    }
+    .section1 .SelectTag .selectItem {
+        margin-bottom: 10px;
+        border: 1px solid rgb(214, 214, 214);
+    }
+    .section1 h4{
+        font-size: 34px;
+        line-height: 44px;
+        padding-top: 150px;
+    }
+    .section1 .HeadP{
+        font-size: 17px;
+        line-height: 27px;
+        padding-top: 10px;    
+    }
+    /* section 1 end */
+
+    /* section 2 start */
+    .section2 .sec2{
+        position: relative;
+        top: 80px;
+    }
+    /* section 2 end */
+
+    /* slider section */
+    .section4 .FindcarHeader{
+        margin-top: 50px;
+    }
+    /* slider section */
+
+    /* section 4 start  */
+    .section4 .Find1{
+        width: 100%;
+    }
+    /*  section 4 end  */
+    .footerDiv{
+        display: block;
+        justify-content:flex-start;
+    }
+}
+
+@media  (max-width:992px){
+    .navbar .nav-item {
+        padding-right: 1px;
+        font-size: 15px;
+    }
+      /* slider section */
+      .product {
+        min-width: 74%;
+        margin: 0 20px 50px 0px;
+        position: relative;
+        left: 0;
+        transition: 0.5s;
+    }
+    .product img{
+        width: 94%;
+    }
+    /* slider section */
+}
+/* ***************************************
+*****  responsive section end here ****** -------- ****************************
+******************************************/
